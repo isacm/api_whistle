@@ -1,0 +1,20 @@
+{
+  "name": "api_whistle",
+  "version": "1.0.0",
+  "description": "api Whistle",
+  "main": "index.js",
+  "repository": "https://github.com/isacm/api_whistle.git",
+  "author": "Queiroga <queiroga.fernandes@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@loopback/core": "^4.0.0-alpha.22",
+    "@loopback/rest": "^4.0.0-alpha.9",
+    "@types/node": "^8.0.52",
+    "typescript": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/typescript/bin/tsc",
+    "start": "node index.js"
+  }
+}
