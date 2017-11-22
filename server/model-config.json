@@ -26,14 +26,16 @@
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": false
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
   },
   "Role": {
     "dataSource": "db",
     "public": false
   },
-  "CoffeeShop": {
-    "dataSource": "db",
-    "public": true
+  "Note": {
+    "dataSource": "db"
   }
 }
