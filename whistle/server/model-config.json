@@ -12,13 +12,5 @@
       "../common/mixins",
       "./mixins"
     ]
-  },
-  "referee": {
-    "dataSource": null,
-    "public": true
-  },
-  "leader": {
-    "dataSource": null,
-    "public": true
   }
 }
