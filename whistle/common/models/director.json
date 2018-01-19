@@ -1,0 +1,19 @@
+{
+  "name": "Director",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "leagues": {
+      "type": "hasMany",
+      "model": "League",
+      "foreignKey": "leagueId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

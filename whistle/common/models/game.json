@@ -1,0 +1,29 @@
+{
+  "name": "Game",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "home_team": {
+      "type": "hasOne",
+      "model": "Team",
+      "foreignKey": "home_teamId"
+    },
+    "guest_team": {
+      "type": "hasOne",
+      "model": "Team",
+      "foreignKey": "guest_teamId"
+    },
+    "referees": {
+      "type": "hasMany",
+      "model": "Referee",
+      "foreignKey": "refereeId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

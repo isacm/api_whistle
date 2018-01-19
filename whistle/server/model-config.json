@@ -12,5 +12,25 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "Team": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Referee": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Director": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "League": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Game": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
