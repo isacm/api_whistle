@@ -20,7 +20,7 @@
     "teams": {
       "type": "hasMany",
       "model": "Team",
-      "foreignKey": "teamId"
+      "foreignKey": ""
     }
   },
   "acls": [],

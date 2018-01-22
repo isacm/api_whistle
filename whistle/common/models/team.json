@@ -15,7 +15,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "home_team": {
+      "type": "hasMany",
+      "model": "Game",
+      "foreignKey": "home_teamId"
+    },
+    "guest_team": {
+      "type": "hasMany",
+      "model": "Game",
+      "foreignKey": "guest_teamId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

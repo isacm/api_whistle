@@ -11,7 +11,7 @@
     "leagues": {
       "type": "hasMany",
       "model": "League",
-      "foreignKey": "leagueId"
+      "foreignKey": ""
     }
   },
   "acls": [],

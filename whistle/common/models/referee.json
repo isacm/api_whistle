@@ -6,31 +6,34 @@
     "validateUpsert": true
   },
   "properties": {
-    "contacts": {
-      "type": [
-        "string"
-      ],
-      "required": true
-    },
-    "nib": {
+    "phoneNumber": {
       "type": "string",
       "required": true
     },
-    "age": {
-      "type": "date",
-      "required": true
-    },
-    "address": {
-      "type": "string",
-      "required": true
-    }
+    "dateOfBirth": {
+     "type": "date",
+     "required": true
+   },
+   "address": {
+     "type": "string",
+     "required": true
+   },
+   "category": {
+     "type": "string",
+     "required": true
+   },
+   "entryDate" : {
+      "type" : "date",
+      "required" : true
+   }
   },
   "validations": [],
   "relations": {
-    "match_history": {
+    "games": {
       "type": "hasMany",
       "model": "Game",
-      "foreignKey": "gameId"
+      "foreignKey": "",
+      "through": "Game"
     }
   },
   "acls": [],
