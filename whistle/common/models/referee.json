@@ -30,10 +30,9 @@
   "validations": [],
   "relations": {
     "games": {
-      "type": "hasMany",
+      "type": "hasOne",
       "model": "Game",
-      "foreignKey": "",
-      "through": "Game"
+      "foreignKey": "referee_id"
     }
   },
   "acls": [],
