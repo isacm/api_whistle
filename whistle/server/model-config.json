@@ -32,5 +32,21 @@
   "Game": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "AccessToken": {
+    "dataSource": "mongodb",
+    "public": false,
+    "relations": {
+      "referee": {
+        "type": "belongsTo",
+        "model": "Referee",
+        "foreignKey": "refereeId"
+      },
+      "director": {
+        "type": "belongsTo",
+        "model": "Director",
+        "foreignKey": "directorId"
+      }
+    }
   }
 }
