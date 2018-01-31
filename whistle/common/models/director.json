@@ -6,9 +6,9 @@
     "validateUpsert": true
   },
   "properties": {
-    "affiliation" : {
-      "type" : "string",
-      "required" : true
+    "affiliation": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

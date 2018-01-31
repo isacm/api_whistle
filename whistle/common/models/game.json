@@ -25,10 +25,10 @@
   },
   "validations": [],
   "relations": {
-    "referees": {
+    "designations": {
       "type": "hasMany",
-      "model": "Referee",
-      "foreignKey": "game_id"
+      "model": "Designation",
+      "foreignKey": ""
     }
   },
   "acls": [],

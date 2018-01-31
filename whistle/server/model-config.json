@@ -48,5 +48,9 @@
         "foreignKey": "directorId"
       }
     }
+  },
+  "Designation": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

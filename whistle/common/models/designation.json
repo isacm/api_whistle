@@ -1,0 +1,23 @@
+{
+  "name": "Designation",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "isAccepted": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "justification" : {
+      "type" : "string",
+      "required" : false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
