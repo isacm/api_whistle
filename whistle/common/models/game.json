@@ -7,11 +7,30 @@
   },
   "properties": {
     "date": {
-      "type": "date"
+      "type": "string"
+    },
+    "hora": {
+      "type": "string"
+    },
+    "refArray": {
+      "type": [ "String" ]
+    },
+    "isNomeado": {
+      "type": "boolean",
+      "default": false
+    },
+    "escalao": {
+      "type": "string"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "referees": {
+      "type": "hasMany",
+      "model": "Referee",
+      "foreignKey": "game_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }

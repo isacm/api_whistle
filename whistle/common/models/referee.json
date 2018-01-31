@@ -6,12 +6,17 @@
     "validateUpsert": true
   },
   "properties": {
+
+    "city": {
+      "type": "string",
+      "required": true
+    },
     "phoneNumber": {
       "type": "string",
       "required": true
     },
     "dateOfBirth": {
-     "type": "date",
+     "type": "string",
      "required": true
    },
    "address": {
@@ -23,14 +28,14 @@
      "required": true
    },
    "entryDate" : {
-      "type" : "date",
+      "type" : "string",
       "required" : true
    }
   },
   "validations": [],
   "relations": {
     "games": {
-      "type": "hasOne",
+      "type": "hasMany",
       "model": "Game",
       "foreignKey": "referee_id"
     }
