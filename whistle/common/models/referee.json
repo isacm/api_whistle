@@ -11,28 +11,32 @@
       "required": true
     },
     "dateOfBirth": {
-     "type": "date",
-     "required": true
-   },
-   "address": {
-     "type": "string",
-     "required": true
-   },
-   "category": {
-     "type": "string",
-     "required": true
-   },
-   "entryDate" : {
-      "type" : "date",
-      "required" : true
-   }
+      "type": "date",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "entryDate": {
+      "type": "date",
+      "required": true
+    },
+    "photo" : {
+    	"type" : "string",
+    	"required" : false
+    }
   },
   "validations": [],
   "relations": {
-    "games": {
-      "type": "hasOne",
-      "model": "Game",
-      "foreignKey": "referee_id"
+    "designations": {
+      "type": "hasMany",
+      "model": "Designation",
+      "foreignKey": ""
     }
   },
   "acls": [],

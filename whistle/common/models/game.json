@@ -11,7 +11,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "designations": {
+      "type": "hasMany",
+      "model": "Designation",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
