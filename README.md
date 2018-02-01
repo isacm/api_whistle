@@ -9,13 +9,14 @@
 
 ## Run commands
 ```
+```
 #### Start mongo service
-
+```
 $ mongod
 $ mongo
-
+```
 #### Open project directory
-
+```
 $ cd api_whistle/whistle
 
 ```
@@ -25,8 +26,9 @@ $ npm install
 ```
 
 #### Start node service
-
+```
 $ node .
+
 $ Load url on web browser to access explorer
 
 ```
