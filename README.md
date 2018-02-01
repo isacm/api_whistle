@@ -9,7 +9,7 @@
 
 ## Run commands
 ```
-```
+
 #### Start mongo service
 ```
 $ mongod
@@ -30,5 +30,4 @@ $ npm install
 $ node .
 
 $ Load url on web browser to access explorer
-
 ```
