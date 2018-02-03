@@ -3,9 +3,13 @@
 
 #### Requirements
 
-•  MongoDB
+•  MongoDB 
 
+  • Installation guide: https://docs.mongodb.com/manual/administration/install-community/
+  
 •  NodeJs
+
+  • Installation guide: https://nodejs.org/en/download/package-manager/
 
 
 ## Run commands
