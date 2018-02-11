@@ -33,11 +33,14 @@ $ Load url on web browser to access explorer
 ```
 
 #Configuration of sendgrid in a home machine
-
+```
 $ echo "export SENDGRID_API_KEY='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'" > sendgrid.env
 $ source ./sendgrid.env
+```
 
 ##Note
 Do:
+```
 $ npm install --save sendgrid
 $ npm install --save @sendgrid/mail
+```
