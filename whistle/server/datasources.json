@@ -8,5 +8,12 @@
     "name": "mongodb",
     "user": "whistle_admin",
     "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem", 
+    "root": "/var/www/storage",
+    "maxFileSize": "52428800"
   }
 }

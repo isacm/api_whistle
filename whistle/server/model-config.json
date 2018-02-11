@@ -52,5 +52,13 @@
   "Designation": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "file" : {
+    "dataSource": "mongodb",
+    "public" : true
   }
 }
