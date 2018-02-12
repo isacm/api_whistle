@@ -9,17 +9,7 @@
     "date": {
       "type": "string"
     },
-    "hora": {
-      "type": "string"
-    },
-    "refArray": {
-      "type": [ "String" ]
-    },
-    "isNomeado": {
-      "type": "boolean",
-      "default": false
-    },
-    "escalao": {
+    "time": {
       "type": "string"
     }
   },

@@ -12,6 +12,9 @@
     },
     "localization": {
       "type": "geopoint"
+    },
+    "stadium": {
+    	"type": "string"
     }
   },
   "validations": [],
